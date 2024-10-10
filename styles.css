@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #006600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.user-controls a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.main-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.vertical-line {
+    border-left: 6px solid green;
+    height: 500px;
+}
+
+.products-container {
+    flex-grow: 1;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 15px;
+}
+
+.sport-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.product-item {
+    background-color: #006600;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
