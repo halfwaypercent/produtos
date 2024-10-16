@@ -13,39 +13,36 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e6e6e6;
-    padding: 10px 20px;
+    padding: 10px 50px;
+    background-color: #e5e5e5;
+}
+.fa{
+   width: 30px;
 }
 
-.logo h1 {
-    font-size: 24px;
-    color: #006600;
+.logo img {
+    width: 150px;
 }
 
 nav ul {
-    list-style: none;
     display: flex;
-    gap: 15px;
+    list-style: none;
+    gap: 30px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #333;
     font-weight: bold;
 }
 
-.search-bar input {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.search input {
+    padding: 5px;
     width: 200px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
 }
 
-.user-controls a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: black;
-}
 
 .main-content {
     display: flex;
@@ -57,11 +54,13 @@ nav ul li a {
     width: 250px;
     height: auto;
     border-radius: 10px;
+    margin-top: 140px;
 }
 
 .vertical-line {
     border-left: 6px solid green;
     height: 500px;
+    margin-top: 95px;
 }
 
 .products-container {
